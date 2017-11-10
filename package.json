@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "npm run build && node src/server"
   },
   "author": "Todd Mantell",
   "license": "ISC",

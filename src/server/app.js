@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use(express.static('build'));
 
-app.get('/', logger, (req, res) => {
+app.get('/', loggerMiddleware, (req, res) => {
   res.sendFile(path.resolve('index.html'));
 });
 
