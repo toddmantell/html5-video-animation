@@ -6,8 +6,8 @@ const StartButton = styled.button`
   z-index: 1000;
   height: 40px;
   width: 100px;
-  top: 50%;
-  left: 50%;  
+  top: 47%;
+  left: 46%;  
 
   color: white;
   font-weight: 400;

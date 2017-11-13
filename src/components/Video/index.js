@@ -30,9 +30,9 @@ export default class VideoContainer extends Component {
     const message3 = document.getElementById('message3');
 
     timeline
-      .from(message1, 10, {left: -100, autoAlpha: 0})
-      .from(message2, 10, {left: -100, autoAlpha: 0})
-      .from(message3, 10, {left: -100, autoAlpha: 0});
+      .from(message1, 10, {left: 100, autoAlpha: 0})
+      .from(message2, 10, {left: 100, autoAlpha: 0})
+      .from(message3, 10, {left: 100, autoAlpha: 0});
   }
 
   render() {
