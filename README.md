@@ -1,6 +1,6 @@
 # html5-video-animation
 
-This repo is an exercise for doing a simple animation in HTML5/React with babel, webpack, and styled-components.
+This repo is an exercise for doing a simple animation in HTML5/React/GSAP with babel, webpack, and styled-components.
 
 To run the exercise, clone this repo, then type:
 ```npm i```
