@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0 0 1em 0;
+  font-family: OpenSans;
+  }
+  main {
+    margin: 0;
+  }
+
+  .overlayFont {
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    right: -9999em;
+    z-index: 1000;
+    font-size: 50px;
+    color: white;
+  }
