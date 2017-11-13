@@ -28,11 +28,7 @@ const StartButton = styled.button`
 `;
 
 const Button = props => {
-  return (
-    <div>
-      <StartButton onClick={props.playVideo}>Start Video</StartButton>
-    </div>
-  );
+  return <StartButton onClick={props.playVideo}>Start Video</StartButton>;
 };
 
 export default Button;
